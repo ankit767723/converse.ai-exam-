@@ -1,0 +1,52 @@
+// array of available pizza bases with their respective images
+const pizzaBases = [
+  {
+    name: "Thin Crust",
+    image: "thin-crust.png"
+  },
+  {
+    name: "Thick Crust",
+    image: "thick-crust.png"
+  }
+];
+
+// array of available toppings with their respective images
+const toppings = [
+  {
+    name: "Pepperoni",
+    image: "pepperoni.png"
+  },
+  {
+    name: "Mushrooms",
+    image: "mushrooms.png"
+  },
+  {
+    name: "Onions",
+    image: "onions.png"
+  }
+];
+
+// function for dragging and dropping pizza bases
+function dragAndDropPizzaBases() {
+  // implement drag and drop functionality for pizza bases
+}
+
+// function for displaying available toppings
+function displayToppings() {
+  // display a list of available toppings based on the selected pizza base
+}
+
+// function for dragging and dropping toppings onto the pizza base
+function dragAndDropToppings() {
+  // implement drag and drop functionality for toppings
+}
+
+// function for updating the pizza image with added toppings
+function updatePizzaImage() {
+  // update the image of the pizza in the empty circle element to incorporate added toppings
+}
+
+// function for displaying the final pizza image
+function displayFinalPizza() {
+  // display the final pizza image in the empty circle element
+}
