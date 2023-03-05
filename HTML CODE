@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza Designer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Pizza Designer</h1>
+    <div id="pizza-container">
+      <div id="pizza-base-container">
+        <h2>Select a pizza base:</h2>
+        <div class="pizza-option">
+          <img src="thin-crust.png" alt="Thin Crust">
+          <p>Thin Crust</p>
+        </div>
+        <div class="pizza-option">
+          <img src="thick-crust.png" alt="Thick Crust">
+          <p>Thick Crust</p>
+        </div>
+      </div>
+      <div id="pizza-toppings-container">
+        <h2>Select toppings:</h2>
+        <div class="topping-option">
+          <img src="pepperoni.png" alt="Pepperoni">
+          <p>Pepperoni</p>
+        </div>
+        <div class="topping-option">
+          <img src="mushrooms.png" alt="Mushrooms">
+          <p>Mushrooms</p>
+        </div>
+        <div class="topping-option">
+          <img src="onions.png" alt="Onions">
+          <p>Onions</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
